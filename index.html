@@ -207,7 +207,7 @@
         <span class="education-date">September 2017 - November 2021</span>
         <h4>Bachelor of Science in Computer Engineering</h4>
         <br>
-        <h4>Thesis: Classification of Small Metal Objects with Machine Learning and Deep Learning</h4>
+        <h4>Thesis: Classification of Small Metal Objects with ML and DL techniques</h4>
     </div>
     <!-- End .education-block -->
 </div>
@@ -231,11 +231,33 @@
             
             <div class="project shadow-large">
                 <div class="project-image">
+                    <img src="images/small_metal_objects_detection.png" width="300" height="300"/>
+                </div>
+                <!-- End .project-image -->
+                <div class="project-info">
+                    <h3>Metal objects classifier using MATLAB & PYTHON (B.Sc. Thesis Project)</h3>
+                    <p>
+                        Collected metal objects datasets.
+                        <br> Applied feature extraction with HOG and LBP. 
+                        <br> Extracted and saved the desired features for labeled images in the form of a feature matrix. 
+                        <br> Classified with k-NN and SVM and Naïve Bayes. 
+                        <br> Examined the resulting confusion matrix, the performance of HOG and LBP were compared in the classes. 
+                        <br> Trained and tested several models with DL techniques including YOLOv5, Retina Net, Detectron2, Faster R-CNNVGG16, VGG19, and AlexNet were implemented on the dataset.
+
+                    </p>
+                    <a href="https://link.springer.com/content/pdf/10.1186/s42492-022-00111-6.pdf">View Project</a>
+                </div>
+                <!-- End .project-info -->
+            </div>
+            <!-- End .project -->
+
+            <div class="project shadow-large">
+                <div class="project-image">
                     <img src="images/lc_output.PNG" width="300" height="300"/>
                 </div>
                 <!-- End .project-image -->
                 <div class="project-info">
-                    <h3>Implemented handwritten logic circuits analysis using using PYTHON (PyTorch)</h3>
+                    <h3>Handwritten logic circuits analysis using using PYTHON (PyTorch)</h3>
                     <p>
                         Collected handwitten logic circuits datasets.<br> Augmented the pictures. <br> Compared the performance of different deep learning methods: YOLO, Faster R-CNN, RetinaNet, Detectron2 on the dataset.
                     </p>
@@ -244,24 +266,61 @@
                 <!-- End .project-info -->
             </div>
             <!-- End .project -->
-            
+
             <div class="project shadow-large">
                 <div class="project-image">
-                    <img src="images/small_metal_objects_detection.png" width="300" height="300"/>
+                    <img src="https://user-images.githubusercontent.com/44018277/118492644-76403080-b735-11eb-9f8f-21c2ed5eefd4.jpg" width="300" height="300"/>
                 </div>
                 <!-- End .project-image -->
                 <div class="project-info">
-                    <h3>Implemented small metal objects classifier using MATLAB & PYTHON (B.Sc. Thesis Project)</h3>
+                    <h3>Face Detection system using YOLO</h3>
                     <p>
-                        Collected metal objects datasets.<br> Applied feature extraction with HOG and LBP. <br> Extracted and saved the desired features for labeled images in the form of a feature matrix. <br> Classified with k-NN and SVM and Naïve Bayes. <br> Examined the resulting confusion matrix, the performance of HOG and LBP were compared in the classes. <br> Trained and tested several models with VGG16, VGG19, AlexNet, YOLOv5, and Faster R-CNN on the dataset.
-
+                        I trained yolov5s on the WIDER face dataset.
+                        <br> The WIDER dataset comprises of 390k+ face pictures, with bouding boxes and label formats. 
+                        <br> The faces with area of less than 2 percent of the whole image are considered.
+                        <br> Finally, the model is trained on the dataset; the final accuracy on the validaion dataset is 93.6%
                     </p>
-                    <a href="https://link.springer.com/content/pdf/10.1186/s42492-022-00111-6.pdf">View Project</a>
+                    <a href="https://github.com/ma-charoosaei/Face-Detection">View Project</a>
                 </div>
                 <!-- End .project-info -->
             </div>
             <!-- End .project -->
-            
+
+            <div class="project shadow-large">
+                <div class="project-image">
+                    <img src="https://github.com/ma-charoosaei/Facial-Expression-Sentiment-Analysis/blob/main/FaceSentiment.gif?raw=True" width="300" height="300"/>
+                </div>
+                <!-- End .project-image -->
+                <div class="project-info">
+                    <h3>Facial Expression Sentiment Analysis</h3>
+                    <p>
+                        Face detection in this project is done in real-time using Haar cascades.
+                        <br> Sentiments are analyzed based on the VGG-Face model and cosine similarity used in Facebook's DeepFace framework.
+                        <br> DeepFace is originally designed to handle the dominant face expression in the frame, but some modifications have been made to cope with multiple faces.
+                    </p>
+                    <a href="https://github.com/ma-charoosaei/Facial-Expression-Sentiment-Analysis">View Project</a>
+                </div>
+                <!-- End .project-info -->
+            </div>
+            <!-- End .project -->
+
+            <div class="project shadow-large">
+                <div class="project-image">
+                    <img src="https://cdn-icons-png.flaticon.com/512/207/207090.png" width="300" height="300"/>
+                </div>
+                <!-- End .project-image -->
+                <div class="project-info">
+                    <h3>Telegram Dashboard (powered by streamlit)</h3>
+                    <p>
+                        Created a database and populated each telegram message in the DB.
+                        <br> Look up for the keyword in the search bar and show the messages including the content.
+                    </p>
+                    <a href="https://github.com/ma-charoosaei/telegram-dashboard">View Project</a>
+                </div>
+                <!-- End .project-info -->
+            </div>
+            <!-- End .project -->
+
             <div class="project shadow-large">
                 <div class="project-image">
                     <img src="images/Object-detection-in-a-dense-scene.ppm.png" width="300" height="300" />
@@ -278,272 +337,291 @@
             </div>
             <!-- End .project -->
             
-            <div class="project shadow-large">
-                <div class="project-image">
-                    <img src="images/laravel.jpg" width="300" height="300"/>
-                </div>
-                <!-- End .project-image -->
+
                 <div class="project-info">
-                    <h3>Designed and developed a website using laravel framework</h3>
-                    <p>
-                        Modeled database structure and relations and normalization.<br> Designed UI/UX for all website sections. <br> Synchronized model, view and controller.
-                    </p>
-                    <a href="https://github.com/ma-charoosaei/laravel-bookshop-new">View Project</a>
-                </div>
-                <!-- End .project-info -->
-            </div>
-            <!-- End .project -->
+                    <h3>Other Academic Projects</h3>
+                    <button class="expander-btn" onclick="toggleExpander(this)">Show</button>
+                    <div class="expander-content" style="display: none;">
+                        <p>These are the other projects that I did during my BS studies.</p>
 
-            <div class="project shadow-large">
-                <div class="project-image">
-                    <img src="images/cipher.jpg" width="300" height="300"/>
-                </div>
-                <!-- End .project-image -->
-                <div class="project-info">
-                    <h3>Implemented a simple cipher using c-sharp</h3>
-                    <p>
-
-                    </p>
-                    <a href="#">View Project</a>
-                </div>
-                <!-- End .project-info -->
-            </div>
-            <!-- End .project -->
-
-            <div class="project shadow-large">
-                <div class="project-image">
-                    <img src="images/Real-Time-Embedded-Systems.png" width="300" height="300"/>
-                </div>
-                <!-- End .project-image -->
-                <div class="project-info">
-                    <h3>Implemented a multi-thread software for controlling a real-time embedded system using MATLAB TORSCHE toolbox</h3>
-                    <p>
-
-                    </p>
-                    <a href="#">View Project</a>
-                </div>
-                <!-- End .project-info -->
-            </div>
-            <!-- End .project -->
-
-            <div class="project shadow-large">
-                <div class="project-image">
-                    <img src="images/clock-calendar.jpg" width="300" height="300"/>
-                </div>
-                <!-- End .project-image -->
-                <div class="project-info">
-                    <h3>Designed and implemented a digital clock and calendar using VHDL</h3>
-                    <p>
-                    </p>
-                    <a href="#">View Project</a>
-                </div>
-                <!-- End .project-info -->
-            </div>
-            <!-- End .project -->
-
-            <div class="project shadow-large">
-                <div class="project-image">
-                    <img src="images/14puzzle.JPG" width="300" height="300"/>
-                </div>
-                <!-- End .project-image -->
-                <div class="project-info">
-                    <h3>Addressed 14-puzzle problem </h3>
-                    <p>
-                        Addressed with graph search, bidirectional search, genetic algorithm and A* search.
-                    </p>
-                    <a href="https://github.com/ma-charoosaei/14Puzzle-A_StarSearch">View Project</a>
-                </div>
-                <!-- End .project-info -->
-            </div>
-            <!-- End .project -->
-
-            <div class="project shadow-large">
-                <div class="project-image">
-                    <img src="images/travelling-salesman.jpg" width="300" height="300"/>
-                </div>
-                <!-- End .project-image -->
-                <div class="project-info">
-                    <h3>Addressed TSP </h3>
-                    <p>
-                        Addressed with steepest-ascent hill-climbing algorithm.
-                    </p>
-                    <a href="https://github.com/ma-charoosaei/TSP-SteepestAscentHillClimbing">View Project</a>
-                </div>
-                <!-- End .project-info -->
-            </div>
-            <!-- End .project -->
-
-            <div class="project shadow-large">
-                <div class="project-image">
-                    <img src="images/n-queen.jpg" width="300" height="300" />
-                </div>
-                <!-- End .project-image -->
-                <div class="project-info">
-                    <h3>Addressed n-queens problem  </h3>
-                    <p>
-                        Addressed with backtracking algorithm.
-                    </p>
-                    <a href="https://github.com/ma-charoosaei/N-Queens">View Project</a>
-                </div>
-                <!-- End .project-info -->
-            </div>
-            <!-- End .project -->
+                        <div class="project shadow-large">
+                            <div class="project-image">
+                                <img src="images/laravel.jpg" width="300" height="300"/>
+                            </div>
+                            <!-- End .project-image -->
+                            <div class="project-info">
+                                <h3>Designed and developed a website using laravel framework</h3>
+                                <p>
+                                    Modeled database structure and relations and normalization.<br> Designed UI/UX for all website sections. <br> Synchronized model, view and controller.
+                                </p>
+                                <a href="https://github.com/ma-charoosaei/laravel-bookshop-new">View Project</a>
+                            </div>
+                            <!-- End .project-info -->
+                        </div>
+                        <!-- End .project -->
             
-            <div class="project shadow-large">
-                <div class="project-image">
-                    <img src="images/spyware.jpg" width="300" height="300"/>
-                </div>
-                <!-- End .project-image -->
-                <div class="project-info">
-                    <h3>Programmed a simple spyware using njRAT</h3>
-                    <p>
-                    </p>
-                    <a href="#">View Project</a>
-                </div>
-                <!-- End .project-info -->
-            </div>
-            <!-- End .project -->
-
-            <div class="project shadow-large">
-                <div class="project-image">
-                    <img src="images/cfg-pda.png" width="300" height="300" />
-                </div>
-                <!-- End .project-image -->
-                <div class="project-info">
-                    <h3>Addressed a project to convert context-free grammar to push down automata and vice versa</h3>
-                    <p>
-                    </p>
-                    <a href="https://github.com/ma-charoosaei/CFG-To-PDA">View Project</a>
-                </div>
-                <!-- End .project-info -->
-            </div>
-            <!-- End .project -->
-
-            <div class="project shadow-large">
-                <div class="project-image">
-                    <img src="images/car-company.png" width="300" height="300"/>
-                </div>
-                <!-- End .project-image -->
-                <div class="project-info">
-                    <h3>Implemented a database and its application of a car import-export and gallery company using c-sharp and SQL server and MySQL and XML</h3>
-                    <p>
-                        Designed database structure, relations and apply the normalization rules. <br> 
-                        Designed use-case diagrams, sequence diagrams and activity diagrams using Rational Rose. <br>
-                        Designed database structure in Toad Data Modeler and UMlet. <br>
-                        Implemented an application with c-sharp (entity framework) to work with database. <br>
-                    
-                    </p>
-                    <a href="#">View Project</a>
-                </div>
-                <!-- End .project-info -->
-            </div>
-            <!-- End .project -->
-
-            <div class="project shadow-large">
-                <div class="project-image">
-                    <img src="images/travelling-salesman.jpg" width="300" height="300"/>
-                </div>
-                <!-- End .project-image -->
-                <div class="project-info">
-                    <h3>Addressed TSP </h3>
-                    <p>
-                        Addressed with multi-thread and multi-task algorithms with semaphore and mutex using c++.
-                    </p>
-                    <a href="#">View Project</a>
-                </div>
-                <!-- End .project-info -->
-            </div>
-            <!-- End .project -->
-
-            <div class="project shadow-large">
-                <div class="project-image">
-                    <img src="images/text processing.jpg" width="300" height="300"/>
-                </div>
-                <!-- End .project-image -->
-                <div class="project-info">
-                    <h3>Implemented a mathematical text processor using c++</h3>
-                    <p>
-                    </p>
-                    <a href="#">View Project</a>
-                </div>
-                <!-- End .project-info -->
-            </div>
-            <!-- End .project -->
-
-            <div class="project shadow-large">
-                <div class="project-image">
-                    <img src="images/client-server-messenger.png" width="300" height="300"/>
-                </div>
-                <!-- End .project-image -->
-                <div class="project-info">
-                    <h3>Implemented a multi-process client-server messenger</h3>
-                    <p>
-                    </p>
-                    <a href="#">View Project</a>
-                </div>
-                <!-- End .project-info -->
-            </div>
-            <!-- End .project -->
-
-            <div class="project shadow-large">
-                <div class="project-image">
-                    <img src="images/hanoi-towers.png" width="300" height="300"/>
-                </div>
-                <!-- End .project-image -->
-                <div class="project-info">
-                    <h3>Addressed Hanoi Towers problem using c++.</h3>
-                    <p>
-                    </p>
-                    <a href="#">View Project</a>
-                </div>
-                <!-- End .project-info -->
-            </div>
-            <!-- End .project -->
+                        <div class="project shadow-large">
+                            <div class="project-image">
+                                <img src="images/cipher.jpg" width="300" height="300"/>
+                            </div>
+                            <!-- End .project-image -->
+                            <div class="project-info">
+                                <h3>Implemented a simple cipher using c-sharp</h3>
+                                <p>
             
-            <div class="project shadow-large">
-                <div class="project-image">
-                    <img src="images/tetris.jpg" width="300" height="300"/>
+                                </p>
+                                <a href="#">View Project</a>
+                            </div>
+                            <!-- End .project-info -->
+                        </div>
+                        <!-- End .project -->
+            
+                        <div class="project shadow-large">
+                            <div class="project-image">
+                                <img src="images/Real-Time-Embedded-Systems.png" width="300" height="300"/>
+                            </div>
+                            <!-- End .project-image -->
+                            <div class="project-info">
+                                <h3>Implemented a multi-thread software for controlling a real-time embedded system using MATLAB TORSCHE toolbox</h3>
+                                <p>
+            
+                                </p>
+                                <a href="#">View Project</a>
+                            </div>
+                            <!-- End .project-info -->
+                        </div>
+                        <!-- End .project -->
+            
+                        <div class="project shadow-large">
+                            <div class="project-image">
+                                <img src="images/clock-calendar.jpg" width="300" height="300"/>
+                            </div>
+                            <!-- End .project-image -->
+                            <div class="project-info">
+                                <h3>Designed and implemented a digital clock and calendar using VHDL</h3>
+                                <p>
+                                </p>
+                                <a href="#">View Project</a>
+                            </div>
+                            <!-- End .project-info -->
+                        </div>
+                        <!-- End .project -->
+            
+                        <div class="project shadow-large">
+                            <div class="project-image">
+                                <img src="images/14puzzle.JPG" width="300" height="300"/>
+                            </div>
+                            <!-- End .project-image -->
+                            <div class="project-info">
+                                <h3>Addressed 14-puzzle problem </h3>
+                                <p>
+                                    Addressed with graph search, bidirectional search, genetic algorithm and A* search.
+                                </p>
+                                <a href="https://github.com/ma-charoosaei/14Puzzle-A_StarSearch">View Project</a>
+                            </div>
+                            <!-- End .project-info -->
+                        </div>
+                        <!-- End .project -->
+            
+                        <div class="project shadow-large">
+                            <div class="project-image">
+                                <img src="images/travelling-salesman.jpg" width="300" height="300"/>
+                            </div>
+                            <!-- End .project-image -->
+                            <div class="project-info">
+                                <h3>Addressed TSP </h3>
+                                <p>
+                                    Addressed with steepest-ascent hill-climbing algorithm.
+                                </p>
+                                <a href="https://github.com/ma-charoosaei/TSP-SteepestAscentHillClimbing">View Project</a>
+                            </div>
+                            <!-- End .project-info -->
+                        </div>
+                        <!-- End .project -->
+            
+                        <div class="project shadow-large">
+                            <div class="project-image">
+                                <img src="images/n-queen.jpg" width="300" height="300" />
+                            </div>
+                            <!-- End .project-image -->
+                            <div class="project-info">
+                                <h3>Addressed n-queens problem  </h3>
+                                <p>
+                                    Addressed with backtracking algorithm.
+                                </p>
+                                <a href="https://github.com/ma-charoosaei/N-Queens">View Project</a>
+                            </div>
+                            <!-- End .project-info -->
+                        </div>
+                        <!-- End .project -->
+                        
+                        <div class="project shadow-large">
+                            <div class="project-image">
+                                <img src="images/spyware.jpg" width="300" height="300"/>
+                            </div>
+                            <!-- End .project-image -->
+                            <div class="project-info">
+                                <h3>Programmed a simple spyware using njRAT</h3>
+                                <p>
+                                </p>
+                                <a href="#">View Project</a>
+                            </div>
+                            <!-- End .project-info -->
+                        </div>
+                        <!-- End .project -->
+            
+                        <div class="project shadow-large">
+                            <div class="project-image">
+                                <img src="images/cfg-pda.png" width="300" height="300" />
+                            </div>
+                            <!-- End .project-image -->
+                            <div class="project-info">
+                                <h3>Addressed a project to convert context-free grammar to push down automata and vice versa</h3>
+                                <p>
+                                </p>
+                                <a href="https://github.com/ma-charoosaei/CFG-To-PDA">View Project</a>
+                            </div>
+                            <!-- End .project-info -->
+                        </div>
+                        <!-- End .project -->
+            
+                        <div class="project shadow-large">
+                            <div class="project-image">
+                                <img src="images/car-company.png" width="300" height="300"/>
+                            </div>
+                            <!-- End .project-image -->
+                            <div class="project-info">
+                                <h3>Implemented a database and its application of a car import-export and gallery company using c-sharp and SQL server and MySQL and XML</h3>
+                                <p>
+                                    Designed database structure, relations and apply the normalization rules. <br> 
+                                    Designed use-case diagrams, sequence diagrams and activity diagrams using Rational Rose. <br>
+                                    Designed database structure in Toad Data Modeler and UMlet. <br>
+                                    Implemented an application with c-sharp (entity framework) to work with database. <br>
+                                
+                                </p>
+                                <a href="#">View Project</a>
+                            </div>
+                            <!-- End .project-info -->
+                        </div>
+                        <!-- End .project -->
+            
+                        <div class="project shadow-large">
+                            <div class="project-image">
+                                <img src="images/travelling-salesman.jpg" width="300" height="300"/>
+                            </div>
+                            <!-- End .project-image -->
+                            <div class="project-info">
+                                <h3>Addressed TSP </h3>
+                                <p>
+                                    Addressed with multi-thread and multi-task algorithms with semaphore and mutex using c++.
+                                </p>
+                                <a href="#">View Project</a>
+                            </div>
+                            <!-- End .project-info -->
+                        </div>
+                        <!-- End .project -->
+            
+                        <div class="project shadow-large">
+                            <div class="project-image">
+                                <img src="images/text processing.jpg" width="300" height="300"/>
+                            </div>
+                            <!-- End .project-image -->
+                            <div class="project-info">
+                                <h3>Implemented a mathematical text processor using c++</h3>
+                                <p>
+                                </p>
+                                <a href="#">View Project</a>
+                            </div>
+                            <!-- End .project-info -->
+                        </div>
+                        <!-- End .project -->
+            
+                        <div class="project shadow-large">
+                            <div class="project-image">
+                                <img src="images/client-server-messenger.png" width="300" height="300"/>
+                            </div>
+                            <!-- End .project-image -->
+                            <div class="project-info">
+                                <h3>Implemented a multi-process client-server messenger</h3>
+                                <p>
+                                </p>
+                                <a href="#">View Project</a>
+                            </div>
+                            <!-- End .project-info -->
+                        </div>
+                        <!-- End .project -->
+            
+                        <div class="project shadow-large">
+                            <div class="project-image">
+                                <img src="images/hanoi-towers.png" width="300" height="300"/>
+                            </div>
+                            <!-- End .project-image -->
+                            <div class="project-info">
+                                <h3>Addressed Hanoi Towers problem using c++.</h3>
+                                <p>
+                                </p>
+                                <a href="#">View Project</a>
+                            </div>
+                            <!-- End .project-info -->
+                        </div>
+                        <!-- End .project -->
+                        
+                        <div class="project shadow-large">
+                            <div class="project-image">
+                                <img src="images/tetris.jpg" width="300" height="300"/>
+                            </div>
+                            <!-- End .project-image -->
+                            <div class="project-info">
+                                <h3>Implemented Tetris using c++</h3>
+                                <p>
+                                </p>
+                                <a href="https://github.com/ma-charoosaei/Tetris">View Project</a>
+                            </div>
+                            <!-- End .project-info -->
+                        </div>
+                        <!-- End .project -->
+            
+                        <div class="project shadow-large">
+                            <div class="project-image">
+                                <img src="images/plane-game.jpg" width="300" height="300"/>
+                            </div>
+                            <!-- End .project-image -->
+                            <div class="project-info">
+                                <h3>Implemented Plane game using c++</h3>
+                                <p>
+                                </p>
+                                <a href="#">View Project</a>
+                            </div>
+                            <!-- End .project-info -->
+                        </div>
+                        <!-- End .project -->
+            
+                        <div class="project shadow-large">
+                        <div class="project-image">
+                            <img src="images/othello.png" width="300" height="300" />
+                        </div>
+                        <!-- End .project-image -->
+                        <div class="project-info">
+                            <h3>Implemented Othello game using c++</h3>
+                        </div>
+                        <!-- End .project-info -->
+                        </div>
+                        <!-- End .project -->
+                    </div>
                 </div>
-                <!-- End .project-image -->
-                <div class="project-info">
-                    <h3>Implemented Tetris using c++</h3>
-                    <p>
-                    </p>
-                    <a href="https://github.com/ma-charoosaei/Tetris">View Project</a>
-                </div>
-                <!-- End .project-info -->
-            </div>
-            <!-- End .project -->
-
-            <div class="project shadow-large">
-                <div class="project-image">
-                    <img src="images/plane-game.jpg" width="300" height="300"/>
-                </div>
-                <!-- End .project-image -->
-                <div class="project-info">
-                    <h3>Implemented Plane game using c++</h3>
-                    <p>
-                    </p>
-                    <a href="#">View Project</a>
-                </div>
-                <!-- End .project-info -->
-            </div>
-            <!-- End .project -->
-
-            <div class="project shadow-large">
-                <div class="project-image">
-                    <img src="images/othello.png" width="300" height="300" />
-                </div>
-                <!-- End .project-image -->
-                <div class="project-info">
-                    <h3>Implemented Othello game using c++</h3>
-                    <p>
-                    </p>
-                    <a href="#">View Project</a>
-                </div>
-                <!-- End .project-info -->
-            </div>
-            <!-- End .project -->
+            
+            <script>
+                function toggleExpander(button) {
+                    var expanderContent = button.parentElement.querySelector('.expander-content');
+                    if (expanderContent.style.display === 'none') {
+                        expanderContent.style.display = 'block';
+                        button.innerText = 'Hide';
+                    } else {
+                        expanderContent.style.display = 'none';
+                        button.innerText = 'Show';
+                    }
+                }
+            </script>
 
         </div>
     </div>

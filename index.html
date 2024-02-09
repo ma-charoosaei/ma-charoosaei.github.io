@@ -111,15 +111,22 @@
         <div id="experience-timeline">
             <div data-date="Sept 2023 - Present">
                 <h3>Manchester Met University, Manchester, UK</h3>
-                <h4>Graduate AI Researcher</h4>
+                <h4>Graduate AI Researcher, Student Ambassador</h4>
             </div>
+
             <div data-date="June 2022 - Present">
                 <h3>IEEE Access, NJ, USA</h3>
                 <h4>Technical Peer Reviewer</h4>
             </div>
-            <div data-date="June 2020 - Sept 2023">
-                <h3>Jundi Shapur University of Technology</h3>
+
+            <div data-date="June 2020 - Present">
+                <h3>Northeastern University, USA</h3>
                 <h4>Artificial Intelligence Researcher</h4>
+            </div>
+
+            <div data-date="Sept 2020 - Nov 2021">
+                <h3>Jundi-Shapur University of Technology</h3>
+                <h4>Teaching Assistant  in computer vision & <br>image processing, and AI & expert systems courses</h4>
             </div>
 
             <div data-date="August 2020 - November 2020">
@@ -235,7 +242,7 @@
                 </div>
                 <!-- End .project-image -->
                 <div class="project-info">
-                    <h3>Metal objects classifier using MATLAB & PYTHON (B.Sc. Thesis Project)</h3>
+                    <h3>Metal objects classifier using MATLAB & PYTHON <br> (published in Springer, Visual Computing)</h3>
                     <p>
                         Collected metal objects datasets.
                         <br> Applied feature extraction with HOG and LBP. 
@@ -257,11 +264,69 @@
                 </div>
                 <!-- End .project-image -->
                 <div class="project-info">
-                    <h3>Handwritten logic circuits analysis using using PYTHON (PyTorch)</h3>
+                    <h3>Handwritten logic circuits analysis using using PyTorch <br> (published in IEEE Access)</h3>
                     <p>
                         Collected handwitten logic circuits datasets.<br> Augmented the pictures. <br> Compared the performance of different deep learning methods: YOLO, Faster R-CNN, RetinaNet, Detectron2 on the dataset.
                     </p>
                     <a href="https://ieeexplore.ieee.org/iel7/6287639/9668973/09832898.pdf">View the article</a>
+                </div>
+                <!-- End .project-info -->
+            </div>
+            <!-- End .project -->
+
+
+            <div class="project shadow-large">
+                <div class="project-image">
+                    <img src="https://raw.githubusercontent.com/ma-charoosaei/vehicle-speed-estimation/main/vehicles-result.gif" width="300" height="300"/>
+                </div>
+                <!-- End .project-image -->
+                <div class="project-info">
+                    <h3>Vehicle Speed Estimation using object detection and perspective transformation techniques</h3>
+                    <p>
+                        I trained a YOLO model on a video footage capturing vehicular movement.
+                        <br> The video contains various types of vehicles traversing a road scene.
+                        <br> Utilizing YOLO and perspective transformation techniques, the code identifies and tracks vehicles in each frame.
+                        <br> Vehicle positions are extracted and connected, allowing for the estimation of their speeds.
+                        <br> The final output is a video showing annotated vehicle speeds, providing insights into the dynamics of traffic flow.
+                    </p>
+                </div>
+                <!-- End .project-info -->
+            </div>
+            <!-- End .project -->
+
+            <div class="project shadow-large">
+                <div class="project-image">
+                    <img src="https://raw.githubusercontent.com/ma-charoosaei/covid19-detection/main/overview.JPG" width="300" height="300"/>
+                </div>
+                <!-- End .project-image -->
+                <div class="project-info">
+                    <h3>COVID-19 Detection using machine learning</h3>
+                    <p>
+                        This project utilizes a VGG16 model to classify chest X-ray images into COVID, Normal, and Viral Pneumonia categories.
+                        <br> Preprocesses the COVID-19 Image Dataset obtained from Kaggle to create training and testing sets.
+                        <br> Adapts the VGG16 architecture with modifications for classification and compiles it using Adam optimizer and categorical crossentropy loss.
+                        <br> Applies data preprocessing techniques including rescaling, rotation, and zoom using Keras ImageDataGenerator.
+                        <br> Trains the model for 40 epochs and evaluates its performance on the test set, analyzing accuracy and loss metrics for validation.
+                    </p>
+                </div>
+                <!-- End .project-info -->
+            </div>
+            <!-- End .project -->
+
+            <div class="project shadow-large">
+                <div class="project-image">
+                    <img src="https://raw.githubusercontent.com/ma-charoosaei/breast-cancer-segmentation/main/overview.JPG" width="300" height="300"/>
+                </div>
+                <!-- End .project-image -->
+                <div class="project-info">
+                    <h3>Breast Cancer Detection with CNN</h3>
+                    <p>
+                        This project employs a Convolutional Neural Network (CNN) to detect breast cancer using the Breast Ultrasound Images Dataset, which comprises benign, malignant, and normal breast ultrasound images.
+                        <br> Utilizes the Breast Ultrasound Images Dataset downloaded from Kaggle, preprocessing it to exclude normal images for segmentation and classification.
+                        <br> Designs a CNN architecture for image segmentation with encoder and decoder blocks, compiled using Adam optimizer and soft dice loss function.
+                        <br> Evaluates the trained model on the test set, computing metrics such as sensitivity, specificity, accuracy, PPV, and NPV for individual images and overall performance.
+                        <br> Plots the Receiver Operating Characteristic (ROC) curve to assess the model's discrimination ability between classes.
+                    </p>
                 </div>
                 <!-- End .project-info -->
             </div>
@@ -280,6 +345,25 @@
                         <br> The included codes, which is in form of a IPython notebook, gets the video and performs preproccessing.
                         <br> Then, applying different layes, the key points of the human body will be extracted in each frame of the video.
                         <br> After that, the key points will be connected together, creating the estimated pose of the person.
+                    </p>
+                </div>
+                <!-- End .project-info -->
+            </div>
+            <!-- End .project -->
+
+            <div class="project shadow-large">
+                <div class="project-image">
+                    <img src="https://raw.githubusercontent.com/ma-charoosaei/brain-tumor-classification/main/img.jpg" width="300" height="300"/>
+                </div>
+                <!-- End .project-image -->
+                <div class="project-info">
+                    <h3>Brain Tumor Classification using PyTorch</h3>
+                    <p>
+                        This project implements deep learning models to classify brain tumors from MRI images.
+                        <br> Preprocesses the dataset to remove redundant backgrounds and restructures the dataset.
+                        <br> Configures model architecture and training parameters in config.py.
+                        <br> Trains the models using the specified configurations.
+                        <br> Evaluates the trained models on test data to assess classification performance.
                     </p>
                 </div>
                 <!-- End .project-info -->
@@ -695,7 +779,7 @@
         <div class="row">
             <div class="col-sm-5 copyright">
                 <p>
-                    Copyright &copy; 2021 Mohammadali Charoosaei
+                    Copyright &copy; 2024 Mohammadali Charoosaei
                 </p>
             </div>
             <div class="col-sm-2 top">

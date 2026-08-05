@@ -9,24 +9,19 @@ redirect_from:
 
 I am a **Doctoral Researcher in Computer Science** at the [Interdisciplinary Centre for Security, Reliability and Trust (SnT)](https://www.uni.lu/snt-en/) at the University of Luxembourg.
 
-My research focuses on **AI-enabled software testing**, including software testing agents, automated program repair, test evolution, flaky test detection and repair, and applications of large language models to software engineering.
+My research focuses on **AI-enabled software testing**, including software testing agents, automated program repair, test evolution, and applications of large language models to software engineering.
 
-I have research experience across software engineering, artificial intelligence, computer vision, medical image analysis, and data science. Before joining the University of Luxembourg, I worked as a Senior AI Research Assistant at Manchester Metropolitan University and as a Data Science Graduate Research Assistant at the University of Leeds.
+I have research experience across software engineering, and applications of artificial intelligence. Before joining the University of Luxembourg, I worked as a Senior AI Research Assistant at Manchester Metropolitan University and as a Data Science Graduate Research Assistant at the University of Leeds.
 
-I have published peer-reviewed research and completed more than 150 technical reviews for journals and conferences published by IEEE, ACM, Springer Nature, and Elsevier. I also received a **UK Global Talent endorsement** from Tech Nation.
+I have published peer-reviewed research and completed more than 150 reviews for journals and conferences published by IEEE, ACM, Springer Nature, and Elsevier. I also received the **UK Global Talent endorsement** from Tech Nation.
 
 ## Research Interests
 
-- AI-enabled software testing
-- Software testing agents
+- Software testing
 - Automated program repair
-- Large language models for software engineering
+- LLMs for software engineering
 - Test evolution and maintenance
-- Flaky test detection and repair
-- Machine learning
-- Computer vision
-- Medical image analysis
-- Data science
+- AI Applications
 
 ## Experience
 
@@ -101,7 +96,7 @@ Developed educational websites, contributed to research activities, and analysed
 **Manchester Metropolitan University, United Kingdom**  
 *September 2023 – November 2024*
 
-- **Classification:** Distinction
+- **Grade:** Distinction
 - **GPA equivalent:** 4.0/4.0
 - **Supervisor:** [Prof. Moi Hoon Yap](https://www.mmu.ac.uk/staff/profile/professor-moi-hoon-yap)
 - **Thesis:** *Hair Impact Analysis on Melanoma Classification Confidence in the ISIC Image Dataset*
@@ -118,7 +113,7 @@ Developed educational websites, contributed to research activities, and analysed
 **Jundi-Shapur University of Technology, Iran**  
 *September 2017 – November 2021*
 
-- **GPA for final two years:** approximately 3.5/4.0
+- **GPA last 2Yrs:** 3.5/4.0
 - **Supervisor:** [Dr. Somaieh Amraee](https://ai.northeastern.edu/our-people/somaieh-amraee)
 - **Thesis:** *Analysis of Deep Learning Methods Compared with Machine Learning Models for the Classification of Small Metal Objects*
 
@@ -202,20 +197,12 @@ Developed a Streamlit dashboard for storing, searching, and analysing Telegram m
 ## Technical Skills
 
 - Python
-- C and C++
+- C/C++
 - MATLAB
-- PyTorch
-- Pandas
-- NumPy
-- OpenCV
-- Streamlit
-- Scikit-learn
 - Git and GitHub
 - LaTeX
-- HTML and CSS
-- MySQL
-- Machine learning
-- Deep learning
+- HTML/CSS
+- Machine/Deep learning
 - Computer vision
 - Data analysis
 - Software testing

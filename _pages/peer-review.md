@@ -5,7 +5,7 @@ permalink: /peer-review/
 author_profile: true
 ---
 
-I have completed more than **150 technical peer reviews** for journals and conferences published by IEEE, ACM, Springer Nature, and Elsevier.
+I have completed more than **150 reviews** for journals and conferences published by IEEE, ACM, Springer Nature, and Elsevier.
 
 ## Selected Journals and Venues
 

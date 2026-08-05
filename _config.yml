@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Mohammadali Charoosaei"
+title                    : "Ali Charoosaei"
 title_separator          : "-"
-name                     : &name "Mohammadali Charoosaei"
-description              : &description "Doctoral Researcher in Computer Science working on AI-enabled software testing, automated program repair, and software engineering agents"
+name                     : &name "Ali Charoosaei"
+description              : &description "Doctoral Researcher in Computer Science working on AI-enabled software testing, and LLMs in SE"
 url                      : "https://ma-charoosaei.github.io"
 baseurl                  : ""
 repository               : "ma-charoosaei/ma-charoosaei.github.io"
@@ -81,9 +81,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Mohammadali Charoosaei"
+  name             : "Ali Charoosaei"
   avatar           : "profile.png"
-  bio              : "Doctoral Researcher at SnT, University of Luxembourg, working on AI-enabled software testing, automated program repair, software testing agents, and LLM applications for software engineering."
+  bio              : "Doctoral Researcher at SnT, University of Luxembourg, working on AI-enabled software testing, and LLM applications for software engineering."
   location         : "Luxembourg"
   employer         : "University of Luxembourg"
   pubmed           :

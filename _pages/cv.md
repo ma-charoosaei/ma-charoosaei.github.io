@@ -17,13 +17,11 @@ May 2025 – Present
 
 ## Research Interests
 
-- AI-enabled software testing
 - Automated program repair
 - Software testing agents
-- Large language models for software engineering
+- LLMs for SE
 - Test evolution
-- Flaky test detection and repair
-- Machine learning and computer vision
+- Applications of AI
 
 ## Education
 
@@ -45,6 +43,6 @@ May 2025 – Present
 
 See my complete [Publications page](/publications/).
 
-## Download
+[## Download]: #
 
-A downloadable PDF version of my CV will be added here.
+[A downloadable PDF version of my CV will be added here.]: #

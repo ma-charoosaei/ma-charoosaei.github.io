@@ -73,8 +73,8 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-analytics"
-  google_analytics       :  G-5XJHGCVBVM
+  provider               :  # "google-analytics" - add your own GA4 measurement ID below to enable
+  google_analytics       :
 #  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
 #  google:
 #    tracking_id          : UA-8317603-4
@@ -187,12 +187,6 @@ collections:
 #  portfolio:
 #    output: true
 #    permalink: /:collection/:path/
-  news:
-    output: true
-    permalink: /:collection/:path/
-  collabs:
-    output: true
-    permalink: /:collection/:path/
 #  talks:
 #    output: true
 #    permalink: /:collection/:path/
@@ -210,17 +204,6 @@ defaults:
 #       read_time: true
 #       comments: true
 #       share: true
-#       related: true
-  # _news
-  - scope:
-      path: ""
-      type: news
-    values:
-      layout: single
-      author_profile: true
-#       read_time: true
-      comments: true
-      share: true
 #       related: true
 # _pages
   - scope:
@@ -256,14 +239,6 @@ defaults:
 #       author_profile: true
 #       share: true
 #       comment: true
-  # _collabs
-  - scope:
-      path: ""
-      type: collabs
-    values:
-      layout: collab
-      author_profile: true
-      share: true
 #   # _talks
 #   - scope:
 #       path: ""
@@ -283,7 +258,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Toronto # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Luxembourg # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins

@@ -1,8 +1,8 @@
 ---
 title: "Deep Learning Approaches for Driver Distraction Detection Systems"
 collection: publications
-category: conferences
-permalink: /publication/2022-driver-distraction
+pubtype: conferences
+permalink: /publications/2022-driver-distraction/
 excerpt: "A study of deep-learning approaches for detecting driver distraction."
 date: 2022-01-01
 venue: "International Conference on Global Studies in Technology and Engineering Sciences"

@@ -7,4 +7,25 @@ author_profile: true
 
 {% include base_path %}
 
-Below is a list of my publications.  You can also look at <a href="https://scholar.google.com/citations?user=8DnyZOgAAAAJ&hl=en">Google Scholar</a>.
+<p>
+  A list of my peer-reviewed work. You can also find these on
+  <a href="{{ site.author.googlescholar }}">Google Scholar</a>{% if site.author.orcid %} and
+  <a href="{{ site.author.orcid }}">ORCID</a>{% endif %}.
+</p>
+
+{% assign journals = site.publications | where: "pubtype", "manuscripts" | sort: "date" | reverse %}
+{% assign conferences = site.publications | where: "pubtype", "conferences" | sort: "date" | reverse %}
+
+{% if journals.size > 0 %}
+  <h2 class="archive__subtitle">Journal Articles</h2>
+  {% for post in journals %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}
+
+{% if conferences.size > 0 %}
+  <h2 class="archive__subtitle">Conference Papers</h2>
+  {% for post in conferences %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}

@@ -1,8 +1,8 @@
 ---
 title: "The Application of Machine Learning in Medical Image Processing"
 collection: publications
-category: conferences
-permalink: /publication/2022-medical-image-processing
+pubtype: conferences
+permalink: /publications/2022-medical-image-processing/
 excerpt: "A review of machine-learning applications in medical-image processing."
 date: 2022-01-01
 venue: "International Conference on Modern Research in Electrical and Computer Engineering"

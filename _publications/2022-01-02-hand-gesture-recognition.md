@@ -1,8 +1,8 @@
 ---
 title: "Computer Vision-Based Hand Gesture Recognition"
 collection: publications
-category: conferences
-permalink: /publication/2022-hand-gesture-recognition
+pubtype: conferences
+permalink: /publications/2022-hand-gesture-recognition/
 excerpt: "A computer-vision approach to recognising hand gestures."
 date: 2022-01-01
 venue: "International Conference on Modern Research in Electrical and Computer Engineering"

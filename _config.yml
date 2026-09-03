@@ -83,7 +83,7 @@ analytics:
 # Site Author
 author:
   name             : "Ali Charoosaei"
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   bio              : "Doctoral Researcher at SnT, University of Luxembourg, working on AI-enabled software testing, and LLM applications for software engineering."
   location         : "Luxembourg"
   employer         : "University of Luxembourg"
@@ -126,6 +126,14 @@ include:
   - _pages
   - files
 exclude:
+  - CLAUDE.md
+  - AGENTS.md
+  - docs
+  - markdown_generator
+  - talkmap
+  - talkmap.py
+  - talkmap.ipynb
+  - CONTRIBUTING.md
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
@@ -178,13 +186,13 @@ kramdown:
 
 # Collections
 collections:
+  publications:
+    output: true
+    permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
 #  teaching:
-#    output: true
-#    permalink: /:collection/:path/
-#  publications:
-#    output: true
-#    permalink: /:collection/:path/
-#  portfolio:
 #    output: true
 #    permalink: /:collection/:path/
 #  talks:
@@ -194,24 +202,29 @@ collections:
 
 # Defaults
 defaults:
-#   # _posts
-#   - scope:
-#       path: ""
-#       type: posts
-#     values:
-#       layout: single
-#       author_profile: true
-#       read_time: true
-#       comments: true
-#       share: true
-#       related: true
-# _pages
+  # _pages
   - scope:
       path: ""
       type: pages
     values:
       layout: single
       author_profile: true
+  # _publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
 #   # _teaching
 #   - scope:
 #       path: ""
@@ -220,25 +233,6 @@ defaults:
 #       layout: single
 #       author_profile: true
 #       share: true
-#       comments: true
-#   # _publications
-#   - scope:
-#       path: ""
-#       type: publications
-#     values:
-#       layout: single
-#       author_profile: true
-#       share: true
-#       comments: true
-#   # _portfolio
-#   - scope:
-#       path: ""
-#       type: portfolio
-#     values:
-#       layout: single
-#       author_profile: true
-#       share: true
-#       comment: true
 #   # _talks
 #   - scope:
 #       path: ""
@@ -247,6 +241,7 @@ defaults:
 #       layout: talk
 #       author_profile: true
 #       share: true
+
 
 # Sass/SCSS
 sass:

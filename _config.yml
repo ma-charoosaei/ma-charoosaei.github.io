@@ -83,7 +83,7 @@ analytics:
 # Site Author
 author:
   name             : "Mohammadali Charoosaei"
-  avatar           : "profile.jpg"
+  avatar           : "profile.png"
   bio              : "Doctoral Researcher at SnT, University of Luxembourg, working on AI-enabled software testing, and LLM applications for software engineering."
   location         : "Luxembourg"
   employer         : "University of Luxembourg"

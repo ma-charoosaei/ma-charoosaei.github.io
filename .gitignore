@@ -3,3 +3,5 @@ _site/
 .agents/
 .claude/skills/
 skills-lock.json
+
+.DS_Store

@@ -8,13 +8,21 @@ author_profile: true
 {% include base_path %}
 
 <p>
-  A list of my peer-reviewed work. You can also find these on
+  A list of my published work and preprints. You can also find these on
   <a href="{{ site.author.googlescholar }}">Google Scholar</a>{% if site.author.orcid %} and
   <a href="{{ site.author.orcid }}">ORCID</a>{% endif %}.
 </p>
 
+{% assign preprints = site.publications | where: "pubtype", "preprints" | sort: "date" | reverse %}
 {% assign journals = site.publications | where: "pubtype", "manuscripts" | sort: "date" | reverse %}
 {% assign conferences = site.publications | where: "pubtype", "conferences" | sort: "date" | reverse %}
+
+{% if preprints.size > 0 %}
+  <h2 class="archive__subtitle">Preprints</h2>
+  {% for post in preprints %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}
 
 {% if journals.size > 0 %}
   <h2 class="archive__subtitle">Journal Articles</h2>

@@ -27,7 +27,7 @@ I have also completed **more than 150 peer reviews** for journals and conference
 ## Elsewhere on this site
 
 - [Experience](/experience/) — research and industry roles
-- [Publications](/publications/) — peer-reviewed journal and conference papers
+- [Publications](/publications/) — preprints and peer-reviewed journal and conference papers
 - [Education](/education/) — degrees, theses and supervisors
 - [Projects](/portfolio/) — selected research and engineering work
 - [Peer Review](/peer-review/) — review service

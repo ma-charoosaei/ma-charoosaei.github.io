@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="AC">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="MC">
   <rect width="512" height="512" rx="96" fill="#2a6e8f"/>
-  <text x="256" y="352" text-anchor="middle"
+  <text x="256" y="338" text-anchor="middle"
         font-family="Iowan Old Style, Palatino Linotype, Palatino, Book Antiqua, Georgia, serif"
-        font-size="272" font-weight="700" fill="#ffffff" letter-spacing="-8">AC</text>
+        font-size="236" font-weight="700" fill="#ffffff" letter-spacing="-8">MC</text>
 </svg>

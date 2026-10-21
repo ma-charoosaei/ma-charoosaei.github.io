@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a **Doctoral Researcher in Computer Science** at the [Interdisciplinary Centre for Security, Reliability and Trust (SnT)](https://www.uni.lu/snt-en/), University of Luxembourg, supervised by [Prof. Mike Papadakis](https://www.uni.lu/snt-en/people/michail-papadakis/).
+I am a **Doctoral Researcher in Computer Science** at the [Interdisciplinary Centre for Security, Reliability and Trust (SnT)](https://www.uni.lu/snt-en/), University of Luxembourg, supervised by [Prof. Mike Papadakis](https://www.uni.lu/snt-en/people/mike-papadakis/).
 
 My research is on **AI-enabled software testing**: software testing agents, automated program repair, test evolution, and how large language models can be applied to software engineering problems. The through-line is using intelligent techniques to make software quality assurance more effective and less manual.
 

@@ -11,7 +11,7 @@ author_profile: true
 *May 2025 – Present*
 
 - Research area: AI-enabled software testing
-- Supervisor: [Prof. Mike Papadakis](https://www.uni.lu/snt-en/people/michail-papadakis/)
+- Supervisor: [Prof. Mike Papadakis](https://www.uni.lu/snt-en/people/mike-papadakis/)
 
 ---
 
